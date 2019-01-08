@@ -3,6 +3,7 @@ package com.sample.cervejaj;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -92,6 +93,9 @@ public class Login_Activity_TL extends AppCompatActivity implements LoaderCallba
 
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
+
+       /* Intent intent = new Intent(this, Tela_Principal_Activity_TL.class);
+        startActivity(intent);*/
     }
 
     private void populateAutoComplete() {
