@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Cerveja Já</string>
+    <string name="app_name">APP</string>
     <string name="navigation_drawer_open">Abra a gaveta de navegação</string>
     <string name="navigation_drawer_close">Fechar gaveta de navegação</string>
     <string name="nav_header_title">Android Studio</string>
